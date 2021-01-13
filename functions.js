@@ -49,7 +49,7 @@ function channelHasVideo(videoTitle, channel) {
  * BONUS: use iteration method `.find()`
  ****************************************************************/
 function getChannelByName(channelName, channels) {
-  return channels.name.find(channel => channel.name === channelName);
+  return channels.find(channel => channel.name === channelName);
 }
 // console.log(getChannelByName("PowerfulJRE", channels))
 
